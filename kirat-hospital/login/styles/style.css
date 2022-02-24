@@ -12,7 +12,7 @@ h4 {
 }
 .container {
   background-color: #f8f8f8;
-  height: auto;
+  height: 100%;
   width: 100vw;
 }
 .grid-2 {
