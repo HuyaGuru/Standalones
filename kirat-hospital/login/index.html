@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="grid-2">
+            <div class="selection">
+                <div>
+                    <h4 class="selection-header">Login</h4>
+                    <div class="choice">
+                        <input type="radio" name="user-type" id="patient" checked class="choice-radio">
+                        <label for="patient" class="choice-label">As a Patient</label>
+                    </div>
+                    <div class="choice">
+                        <input type="radio" name="user-type" id="doctor" class="choice-radio">
+                        <label for="doctor" class="choice-label">As a Doctor</label>
+                    </div>
+                </div>
+            </div>
+            <div class="info">
+                <div class="flex-container-2">
+                    <div class="inputs">
+                        <div class="inputs-in">
+                            <input type="email" name="email" id="email" class="info-input email-input">
+                            <label for="email" class="info-label email">Email</label>
+                        </div>
+                        <div class="inputs-in">
+                            <input type="password" name="password" id="password" class="info-input password-input">
+                            <label for="password" class="info-label password">Password</label>
+                        </div>
+                    </div>
+                    <div class="next">
+                        <button type="submit" class="next-button">
+                            <div class="next-button-text">Next</div>
+                            <div class="next-button-arrow">→</div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
